@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.website-logo-img {
+  width: 30px;
+}
+
+.container {
+  background-color: hsl(240, 25%, 12%);
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1100px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 85%;
+  }
+}
+
+.objects-container {
+}
+.co-win-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.cow-in-sub-heading {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.co-win-name {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 10px;
+}
